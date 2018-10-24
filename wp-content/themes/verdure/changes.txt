@@ -1,0 +1,9 @@
+1.1
+- Added WooCommerce 3.4.5 compatibility
+- Added compatibility with PHP 7.2
+- Added compatibility with Gutenberg plugin
+- Updated WPBakery Page Builder to 5.5.2
+- Updated Revolution Slider to 5.4.8
+
+1.0.1
+- Minor changes to the overall theme stylization

@@ -1,0 +1,27 @@
+/* ==========================================================================
+   Testimonials standard style - begin
+   ========================================================================== */
+
+.mkdf-testimonials-holder {
+    
+    &.mkdf-testimonials-standard {
+        text-align: center;
+        .mkdf-testimonial-image {
+            @include mkdfRelativeHolderLayout();
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+       
+        .mkdf-testimonial-title {
+            margin: 0;
+        }
+        .mkdf-testimonial-text{
+            margin: 24px 0 0;
+        }
+    }
+}
+/* ==========================================================================
+   Testimonials standard style - end
+   ========================================================================== */

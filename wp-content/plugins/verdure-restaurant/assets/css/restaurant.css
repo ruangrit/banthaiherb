@@ -1,0 +1,430 @@
+/* Global Variables */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+.mkdf-restaurant-menu-list .mkdf-rml-label-holder .mkdf-rml-label {
+  display: block;
+  margin: 0 0 7px;
+  color: #000;
+  font-size: 13px;
+  font-weight: 300;
+  font-family: "Roboto Condensed", sans-serif;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
+
+/* mixins styles - end */
+/* ==========================================================================
+   Custom Post Types styles
+   ========================================================================== */
+/* ==========================================================================
+# Restaurant Menu List style - begin
+========================================================================== */
+.mkdf-restaurant-menu-list ul {
+  list-style-type: none;
+}
+
+.mkdf-restaurant-menu-list ul li {
+  margin-bottom: 49px;
+}
+
+.mkdf-restaurant-menu-list ul li:last-child {
+  margin-bottom: 0;
+}
+
+.mkdf-restaurant-menu-list .mkdf-rml-title-holder {
+  display: table-cell;
+  width: 1%;
+  white-space: nowrap;
+  padding-right: 7px;
+}
+
+.mkdf-restaurant-menu-list .mkdf-rml-title, .mkdf-restaurant-menu-list .mkdf-rml-price {
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.mkdf-restaurant-menu-list .mkdf-rml-price {
+  line-height: 1.2em;
+}
+
+.mkdf-restaurant-menu-list .mkdf-rml-line {
+  height: 2px;
+  background-image: linear-gradient(to right, black 40%, rgba(255, 255, 255, 0) 0%);
+  background-position: bottom left;
+  background-size: 5px 2px;
+  background-repeat: repeat-x;
+  display: table-cell;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  bottom: 9px;
+}
+
+.mkdf-restaurant-menu-list .mkdf-rml-price-holder {
+  display: table-cell;
+  width: 1%;
+  padding-left: 10px;
+  white-space: nowrap;
+}
+
+.mkdf-restaurant-menu-list .mkdf-rml-bottom-holder {
+  position: relative;
+  margin: 0;
+}
+
+.mkdf-restaurant-menu-list .mkdf-rml-description-holder {
+  float: left;
+  width: 70%;
+}
+
+.mkdf-restaurant-menu-list .mkdf-rml-label-holder {
+  float: right;
+  position: relative;
+  width: 30%;
+  text-align: right;
+}
+
+.mkdf-restaurant-menu-list .mkdf-rml-label-holder .mkdf-rml-label {
+  display: inline-block;
+  background-color: #98a86d;
+  color: #fff;
+  padding: 2px 12px 0;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.mkdf-restaurant-menu-list.mkdf-rml-with-featured-image .mkdf-rml-item-content {
+  padding-left: 105px;
+  padding-top: 10px;
+}
+
+.mkdf-restaurant-menu-list.mkdf-rml-with-featured-image .mkdf-rml-item-image {
+  float: left;
+  width: 76px;
+  position: relative;
+}
+
+.mkdf-restaurant-menu-list.mkdf-rml-with-featured-image .mkdf-rml-item-image .mkdf-rml-item-image-empty {
+  width: 76px;
+  height: 76px;
+  background: #c9c9c9;
+}
+
+.mkdf-restaurant-menu-list.mkdf-rml-with-featured-image .mkdf-rml-item-image a {
+  display: block;
+}
+
+.mkdf-restaurant-menu-list.mkdf-rml-with-featured-image .mkdf-rml-item-image img {
+  vertical-align: middle;
+}
+
+.mkdf-restaurant-menu-list.mkdf-rml-light .mkdf-rml-title,
+.mkdf-restaurant-menu-list.mkdf-rml-light .mkdf-rml-price,
+.mkdf-restaurant-menu-list.mkdf-rml-light .mkdf-rml-label {
+  color: #fff;
+}
+
+.mkdf-restaurant-menu-list.mkdf-rml-light .mkdf-rml-line {
+  background-image: linear-gradient(to right, white 40%, rgba(255, 255, 255, 0) 0%);
+}
+
+/* ==========================================================================
+# Restaurant Menu List style - end
+========================================================================== */
+/* ==========================================================================
+   Shortcodes styles
+   ========================================================================== */
+.mkdf-rf-holder input[type=text],
+.mkdf-rf-holder select {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.mkdf-rf-holder .mkdf-rf-col-holder {
+  float: left;
+  width: 28%;
+}
+
+.mkdf-rf-holder .mkdf-rf-col-holder.mkdf-rf-btn-holder {
+  width: 18.5%;
+}
+
+.mkdf-rf-holder .mkdf-rf-col-holder.mkdf-rf-time-col {
+  width: 25.5%;
+}
+
+.mkdf-rf-holder .mkdf-rf-col-holder.mkdf-rf-time-col .mkdf-rf-field-holder {
+  width: 82%;
+}
+
+.mkdf-rf-holder .mkdf-rf-field-holder {
+  width: 74.5%;
+  float: left;
+  background-color: #fff;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.mkdf-rf-holder .mkdf-rf-field-holder select,
+.mkdf-rf-holder .mkdf-rf-field-holder input[type=text] {
+  padding-left: 15px;
+  padding-right: 45px;
+  display: block;
+  width: 100%;
+  color: #111;
+  font-size: 13px;
+  border: 2px solid #111;
+  margin: 0;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+
+.mkdf-rf-holder .mkdf-rf-field-holder input[type=text] {
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.mkdf-rf-holder .mkdf-rf-field-holder input[type=text]::-webkit-input-placeholder {
+  color: #111;
+}
+
+.mkdf-rf-holder .mkdf-rf-field-holder input[type=text]:-moz-placeholder {
+  color: #111;
+  opacity: 1;
+}
+
+.mkdf-rf-holder .mkdf-rf-field-holder input[type=text]::-moz-placeholder {
+  color: #111;
+  opacity: 1;
+}
+
+.mkdf-rf-holder .mkdf-rf-field-holder select {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+  cursor: pointer;
+}
+
+.mkdf-rf-holder .mkdf-rf-field-holder select::-ms-expand {
+  display: none;
+}
+
+.mkdf-rf-holder .mkdf-rf-field-holder .mkdf-rf-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 41px;
+  line-height: 41px;
+  height: 100%;
+  text-align: center;
+  border-left: 2px solid #111;
+}
+
+.mkdf-rf-holder .mkdf-rf-field-holder .mkdf-rf-icon span {
+  color: #111;
+  vertical-align: middle;
+}
+
+.mkdf-rf-holder .mkdf-btn {
+  display: block;
+  width: 100%;
+  font-size: 15px;
+}
+
+.mkdf-rf-holder .mkdf-btn.mkdf-btn-icon .mkdf-btn-icon-holder,
+.mkdf-rf-holder .mkdf-btn .mkdf-btn-text {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.mkdf-rf-holder .mkdf-rf-label {
+  width: 25.4%;
+  text-align: center;
+  display: inline-block;
+  line-height: 44px;
+  font-size: 18px;
+  text-transform: lowercase;
+  color: #111;
+}
+
+.mkdf-rf-holder .mkdf-rf-copyright {
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #B9B9B9;
+}
+
+/* ==========================================================================
+   #jQuery Datepicker styles - start
+   ========================================================================== */
+#ui-datepicker-div {
+  z-index: 1000 !important;
+  background-color: #fff;
+  min-width: 220px;
+  box-shadow: 0 0 2px #ddd;
+  font-size: 12px;
+}
+
+#ui-datepicker-div table tr {
+  border: none;
+}
+
+#ui-datepicker-div table {
+  padding: 0 4px 4px;
+}
+
+#ui-datepicker-div table td {
+  padding: 3px;
+  line-height: 1.5em;
+}
+
+#ui-datepicker-div .ui-datepicker-header {
+  padding: 5px 16px;
+  position: relative;
+}
+
+#ui-datepicker-div .ui-datepicker-next,
+#ui-datepicker-div .ui-datepicker-prev {
+  position: absolute;
+  font-size: 14px;
+}
+
+#ui-datepicker-div .ui-datepicker-prev {
+  left: 12px;
+}
+
+#ui-datepicker-div .ui-datepicker-next {
+  right: 12px;
+}
+
+#ui-datepicker-div .ui-datepicker-title {
+  text-align: center;
+}
+
+#ui-datepicker-div .ui-datepicker-today {
+  color: #111;
+  background-color: #98a86d;
+}
+
+#ui-datepicker-div .ui-datepicker-today a {
+  color: #111;
+}
+
+#ui-datepicker-div .ui-datepicker-current-day:not(.ui-datepicker-today) a {
+  color: #98a86d;
+}
+
+/* ==========================================================================
+   #jQuery Datepicker styles - end
+   ========================================================================== */
+.mkdf-working-hours-holder {
+  position: relative;
+}
+
+.mkdf-working-hours-holder .mkdf-wh-title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.mkdf-working-hours-holder .mkdf-wh-title .mkdf-wh-title-accent-word {
+  color: #98a86d;
+}
+
+.mkdf-working-hours-holder .mkdf-wh-item {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.mkdf-working-hours-holder .mkdf-wh-day {
+  padding-right: 3px;
+  display: table-cell;
+  width: 1%;
+  white-space: nowrap;
+}
+
+.mkdf-working-hours-holder .mkdf-wh-day .mkdf-wh-icon {
+  margin-right: 2px;
+}
+
+.mkdf-working-hours-holder .mkdf-wh-hours {
+  padding-left: 4px;
+  display: table-cell;
+  width: 1%;
+  white-space: nowrap;
+}
+
+.mkdf-working-hours-holder .mkdf-wh-dots {
+  height: 3px;
+  background-image: radial-gradient(circle closest-side, #b3b3b3 99%, transparent 100%);
+  background-position: 50% 70%;
+  background-size: 6px 2px;
+  background-repeat: repeat-x;
+  display: table-cell;
+  width: 98%;
+  z-index: 1;
+  position: relative;
+}
+
+.mkdf-working-hours-holder.mkdf-wh-with-frame {
+  color: #fff;
+  padding: 28px;
+}
+
+.mkdf-working-hours-holder.mkdf-wh-with-frame.mkdf-wh-with-bg-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mkdf-working-hours-holder.mkdf-wh-with-frame .mkdf-wh-holder-inner {
+  padding: 18px 26px 10px;
+  position: relative;
+}
+
+.mkdf-working-hours-holder.mkdf-wh-with-frame .mkdf-wh-title {
+  color: #fff;
+}
+
+.mkdf-working-hours-holder.mkdf-wh-with-frame .mkdf-wh-frame:before, .mkdf-working-hours-holder.mkdf-wh-with-frame .mkdf-wh-frame:after,
+.mkdf-working-hours-holder.mkdf-wh-with-frame .mkdf-wh-frame-2:before,
+.mkdf-working-hours-holder.mkdf-wh-with-frame .mkdf-wh-frame-2:after {
+  position: absolute;
+  content: '';
+}
+
+.mkdf-working-hours-holder.mkdf-wh-with-frame .mkdf-wh-frame:before {
+  top: 0;
+  width: 100%;
+  height: 3px;
+  left: 0;
+  border-top: 1px solid #515151;
+}
+
+.mkdf-working-hours-holder.mkdf-wh-with-frame .mkdf-wh-frame:after {
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  left: 0;
+  border-bottom: 1px solid #515151;
+}
+
+.mkdf-working-hours-holder.mkdf-wh-with-frame .mkdf-wh-frame-2:before {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  border-left: 1px solid #515151;
+}
+
+.mkdf-working-hours-holder.mkdf-wh-with-frame .mkdf-wh-frame-2:after {
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 3px;
+  border-right: 1px solid #515151;
+}
+
+/*# sourceMappingURL=../../../../plugins/verdure-restaurant/assets/css/restaurant.css.map */

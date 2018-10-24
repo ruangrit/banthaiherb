@@ -1,0 +1,1270 @@
+/* ==========================================================================
+   Header styles - begin
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+   Header styles - begin
+   ========================================================================== */
+.mkdf-page-header {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  z-index: 110;
+  box-sizing: border-box;
+  /* ==========================================================================
+    #General header layout - start
+    ========================================================================== */
+  /* ==========================================================================
+    #General header layout - end
+    ========================================================================== */
+  /* ==========================================================================
+    #Logo area styles - start
+    ========================================================================== */
+  /* ==========================================================================
+    #Logo area styles - end
+    ========================================================================== */
+  /* ==========================================================================
+    #Menu area styles - start
+    ========================================================================== */
+  /* ==========================================================================
+    #Menu area styles - end
+    ========================================================================== */
+  /* ==========================================================================
+    #Specific styles - start
+    ========================================================================== */
+  /* ==========================================================================
+    #Specific styles - end
+    ========================================================================== */
+}
+
+.mkdf-page-header a img {
+  display: block;
+}
+
+.mkdf-page-header p {
+  margin: 0;
+}
+
+.mkdf-page-header .mkdf-vertical-align-containers {
+  padding: 0 40px;
+}
+
+.mkdf-paspartu-enabled .mkdf-page-header .mkdf-vertical-align-containers {
+  padding: 0;
+}
+
+.mkdf-page-header .mkdf-grid {
+  height: 100%;
+}
+
+.mkdf-page-header .mkdf-grid .mkdf-vertical-align-containers {
+  padding: 0;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.mkdf-page-header .mkdf-logo-area {
+  position: relative;
+  height: 140px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.mkdf-page-header .mkdf-logo-area .mkdf-logo-wrapper a {
+  max-height: 140px;
+}
+
+.mkdf-page-header .mkdf-menu-area {
+  position: relative;
+  height: 70px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.mkdf-boxed .mkdf-page-header .mkdf-menu-area {
+  padding: 0;
+}
+
+.mkdf-page-header .mkdf-menu-area .mkdf-logo-wrapper a {
+  max-height: 70px;
+}
+
+.mkdf-page-header .mkdf-menu-area .widget {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.mkdf-logo-area-border-disable .mkdf-page-header .mkdf-logo-area {
+  border: none;
+}
+
+.mkdf-logo-area-in-grid-border-disable .mkdf-page-header .mkdf-logo-area .mkdf-grid .mkdf-vertical-align-containers {
+  border: none;
+}
+
+.mkdf-header-logo-area-in-grid-padding .mkdf-page-header .mkdf-logo-area .mkdf-vertical-align-containers {
+  padding: 0 25px;
+}
+
+.mkdf-menu-area-shadow-disable .mkdf-page-header .mkdf-menu-area {
+  box-shadow: none;
+}
+
+.mkdf-menu-area-shadow-disable .mkdf-page-header .mkdf-menu-area .mkdf-grid .mkdf-vertical-align-containers {
+  box-shadow: none;
+}
+
+.mkdf-menu-area-border-disable .mkdf-page-header .mkdf-menu-area {
+  border: none;
+}
+
+.mkdf-menu-area-in-grid-border-disable .mkdf-page-header .mkdf-menu-area .mkdf-grid .mkdf-vertical-align-containers {
+  border: none;
+}
+
+.mkdf-header-logo-area-in-grid-padding .mkdf-page-header .mkdf-menu-area .mkdf-vertical-align-containers {
+  padding: 0 25px;
+}
+
+/* ==========================================================================
+#Light header - begin
+========================================================================== */
+.mkdf-light-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header) .mkdf-logo-wrapper .mkdf-light-logo {
+  opacity: 1;
+}
+
+.mkdf-light-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header) .mkdf-logo-wrapper .mkdf-normal-logo,
+.mkdf-light-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header) .mkdf-logo-wrapper .mkdf-dark-logo {
+  opacity: 0;
+}
+
+.mkdf-light-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header) .mkdf-menu-area {
+  color: #fff !important;
+}
+
+.mkdf-light-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header) .mkdf-menu-area .widget {
+  color: #fff !important;
+}
+
+.mkdf-light-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header) .mkdf-menu-area .widget p,
+.mkdf-light-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header) .mkdf-menu-area .widget a,
+.mkdf-light-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header) .mkdf-menu-area .widget span,
+.mkdf-light-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header) .mkdf-menu-area .widget i,
+.mkdf-light-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header) .mkdf-menu-area .widget .widgettitle {
+  color: #fff !important;
+}
+
+.mkdf-light-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header) .mkdf-menu-area .widget a:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.mkdf-light-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header).mkdf-menu-area {
+  color: #fff !important;
+}
+
+.mkdf-light-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header).mkdf-menu-area .widget {
+  color: #fff !important;
+}
+
+.mkdf-light-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header).mkdf-menu-area .widget p,
+.mkdf-light-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header).mkdf-menu-area .widget a,
+.mkdf-light-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header).mkdf-menu-area .widget span,
+.mkdf-light-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header).mkdf-menu-area .widget i,
+.mkdf-light-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header).mkdf-menu-area .widget .widgettitle {
+  color: #fff !important;
+}
+
+.mkdf-light-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header).mkdf-menu-area .widget a:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* ==========================================================================
+#Light header - end
+========================================================================== */
+/* ==========================================================================
+#Dark header - begin
+========================================================================== */
+.mkdf-dark-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header) .mkdf-logo-wrapper .mkdf-dark-logo {
+  opacity: 1;
+}
+
+.mkdf-dark-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header) .mkdf-logo-wrapper .mkdf-normal-logo,
+.mkdf-dark-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header) .mkdf-logo-wrapper .mkdf-light-logo {
+  opacity: 0;
+}
+
+.mkdf-dark-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header) .mkdf-menu-area {
+  color: #333 !important;
+}
+
+.mkdf-dark-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header) .mkdf-menu-area .widget {
+  color: #333 !important;
+}
+
+.mkdf-dark-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header) .mkdf-menu-area .widget p,
+.mkdf-dark-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header) .mkdf-menu-area .widget a,
+.mkdf-dark-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header) .mkdf-menu-area .widget span,
+.mkdf-dark-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header) .mkdf-menu-area .widget i,
+.mkdf-dark-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header) .mkdf-menu-area .widget .widgettitle {
+  color: #333 !important;
+}
+
+.mkdf-dark-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header) .mkdf-menu-area .widget a:hover {
+  color: rgba(51, 51, 51, 0.8) !important;
+}
+
+.mkdf-dark-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header).mkdf-menu-area {
+  color: #333 !important;
+}
+
+.mkdf-dark-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header).mkdf-menu-area .widget {
+  color: #333 !important;
+}
+
+.mkdf-dark-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header).mkdf-menu-area .widget p,
+.mkdf-dark-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header).mkdf-menu-area .widget a,
+.mkdf-dark-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header).mkdf-menu-area .widget span,
+.mkdf-dark-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header).mkdf-menu-area .widget i,
+.mkdf-dark-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header).mkdf-menu-area .widget .widgettitle {
+  color: #333 !important;
+}
+
+.mkdf-dark-header .mkdf-page-header > div:not(.fixed):not(.mkdf-sticky-header).mkdf-menu-area .widget a:hover {
+  color: rgba(51, 51, 51, 0.8) !important;
+}
+
+/* ==========================================================================
+#Dark header - end
+========================================================================== */
+/* ==========================================================================
+   Header end - end
+   ========================================================================== */
+/* ==========================================================================
+   Header logo styles - begin
+   ========================================================================== */
+.mkdf-logo-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mkdf-logo-wrapper a {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+.mkdf-logo-wrapper a img {
+  height: 100%;
+  width: auto;
+  -webkit-transition: opacity 0.2s ease;
+  -moz-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+
+.mkdf-logo-wrapper a img.mkdf-normal-logo {
+  opacity: 1;
+}
+
+.mkdf-logo-wrapper a img.mkdf-dark-logo {
+  opacity: 0;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.mkdf-logo-wrapper a img.mkdf-light-logo {
+  opacity: 0;
+  -webkit-transform: translateY(-200%);
+  -moz-transform: translateY(-200%);
+  transform: translateY(-200%);
+}
+
+/* ==========================================================================
+   Header logo styles - end
+   ========================================================================== */
+/* ==========================================================================
+   Header main menu style - begin
+   ========================================================================== */
+.mkdf-main-menu {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+  width: auto;
+}
+
+.mkdf-main-menu ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.mkdf-main-menu ul li {
+  position: relative;
+  display: inline-block;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.mkdf-main-menu ul li a {
+  font-size: 15px;
+  line-height: 24px;
+  color: #010101;
+  letter-spacing: 0.025em;
+  font-weight: 300;
+}
+
+.mkdf-main-menu ul li a:hover {
+  color: #98a86d;
+}
+
+.mkdf-main-menu ul li a i:before {
+  margin: 0 7px 0 0;
+}
+
+.mkdf-main-menu ul li a .menu_icon_wrapper {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mkdf-main-menu ul li a .mkdf-menu-featured-icon {
+  position: relative;
+  top: -4px;
+  left: 5px;
+  color: currentColor;
+  font-size: 10px;
+  margin: 0;
+}
+
+.mkdf-main-menu ul li a .mkdf-menu-featured-icon:before {
+  margin: 0;
+}
+
+.mkdf-main-menu > ul {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.mkdf-main-menu > ul > li {
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.mkdf-main-menu > ul > li > a {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 100%;
+  padding: 0 22px;
+  color: #010101;
+  font-size: 17px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 24px;
+  box-sizing: border-box;
+}
+
+.mkdf-main-menu > ul > li > a > span.item_outer {
+  position: relative;
+  display: block;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.mkdf-main-menu > ul > li > a > span.item_outer .item_text {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.mkdf-main-menu > ul > li.mkdf-active-item > a {
+  color: #98a86d;
+}
+
+.mkdf-main-menu > ul > li.has_sub > a .mkdf-menu-arrow {
+  display: none;
+}
+
+.mkdf-light-header .mkdf-page-header > div:not(.mkdf-sticky-header):not(.fixed) .mkdf-main-menu > ul > li > a {
+  color: #fff;
+}
+
+.mkdf-light-header .mkdf-page-header > div:not(.mkdf-sticky-header):not(.fixed) .mkdf-main-menu > ul > li > a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.mkdf-light-header .mkdf-page-header > div:not(.mkdf-sticky-header):not(.fixed) .mkdf-main-menu > ul > li.mkdf-active-item > a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.mkdf-dark-header .mkdf-page-header > div:not(.mkdf-sticky-header):not(.fixed) .mkdf-main-menu > ul > li > a {
+  color: #333;
+}
+
+.mkdf-dark-header .mkdf-page-header > div:not(.mkdf-sticky-header):not(.fixed) .mkdf-main-menu > ul > li > a:hover {
+  color: #333;
+}
+
+.mkdf-dark-header .mkdf-page-header > div:not(.mkdf-sticky-header):not(.fixed) .mkdf-main-menu > ul > li.mkdf-active-item > a {
+  color: #333;
+}
+
+/* Narrow drop down styles
+   ========================================================================== */
+.mkdf-drop-down .second {
+  position: absolute;
+  display: block;
+  left: -10px;
+  top: 100%;
+  visibility: hidden;
+  overflow: hidden;
+  opacity: 0;
+  z-index: 10;
+  -webkit-transition: top 0.15s ease-out;
+  -moz-transition: top 0.15s ease-out;
+  transition: top 0.15s ease-out;
+}
+
+.mkdf-drop-down .second.mkdf-drop-down-start {
+  visibility: visible;
+  overflow: visible;
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+
+.mkdf-drop-down .second.right {
+  right: -10px;
+  left: auto;
+}
+
+.mkdf-drop-down .second .inner {
+  position: relative;
+  display: block;
+  padding: 0;
+  margin: 0;
+  z-index: 997;
+}
+
+.mkdf-drop-down .second .inner ul li {
+  display: block;
+  float: none;
+  height: auto;
+}
+
+.mkdf-drop-down .second .inner ul li .widget {
+  width: 100%;
+  margin: 0 !important;
+}
+
+.mkdf-drop-down .second .inner ul li a {
+  display: block;
+  float: none;
+  margin: 0;
+  padding: 7px 30px 8px;
+  color: #000;
+  line-height: 19px;
+}
+
+.mkdf-drop-down .second .inner ul li a .item_outer {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding: 0 30px 0 0;
+  box-sizing: border-box;
+  -webkit-transition: padding 0.2s ease-in-out;
+  -moz-transition: padding 0.2s ease-in-out;
+  transition: padding 0.2s ease-in-out;
+}
+
+.mkdf-drop-down .second .inner ul li a:hover {
+  color: #98a86d;
+}
+
+.mkdf-drop-down .second .inner ul li.current-menu-ancestor > a,
+.mkdf-drop-down .second .inner ul li.current-menu-item > a {
+  color: #98a86d;
+}
+
+.mkdf-drop-down .second .inner ul li.sub > a .item_outer:after {
+  position: absolute;
+  display: inline-block;
+  vertical-align: middle;
+  top: 2px;
+  right: 0;
+  content: '\f3d3';
+  font-family: 'Ionicons';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mkdf-drop-down .second .inner ul.right li a .item_outer {
+  padding: 0 0 0 30px;
+}
+
+.mkdf-drop-down .second .inner ul.right li.sub > a .item_outer:after {
+  right: auto;
+  left: 0;
+  content: "\f3d2";
+}
+
+.mkdf-drop-down .second .inner ul.right li a {
+  text-align: right;
+}
+
+.mkdf-drop-down .second .inner ul.right li ul {
+  left: -100%;
+}
+
+.mkdf-drop-down li.left_position .second {
+  left: 0;
+}
+
+.mkdf-drop-down li.right_position .second {
+  left: auto;
+  right: 0;
+}
+
+.mkdf-drop-down > ul > li:hover > .second {
+  z-index: 20;
+}
+
+.mkdf-drop-down .narrow .second .inner ul {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #fff;
+  padding: 27px 0;
+  border-top: 2px solid #98a86d;
+}
+
+.mkdf-drop-down .narrow .second .inner ul li {
+  width: 203px;
+}
+
+.mkdf-drop-down .narrow .second .inner ul li ul {
+  position: absolute;
+  left: 100%;
+  top: -27px;
+  height: auto;
+  opacity: 0;
+  overflow: hidden;
+  z-index: 10;
+  -webkit-transform: translateZ(0);
+  -webkit-transition: opacity 0.4s ease-out;
+  -moz-transition: opacity 0.4s ease-out;
+  transition: opacity 0.4s ease-out;
+}
+
+.mkdf-drop-down .narrow .second .inner ul li:hover ul {
+  z-index: 20;
+  opacity: 1;
+}
+
+.mkdf-drop-down .narrow .second .inner ul.right li ul {
+  left: -100%;
+}
+
+/* Wide drop down styles
+   ========================================================================== */
+.mkdf-drop-down .wide .second .inner {
+  text-align: center;
+  background-color: #fff;
+  border-top: 2px solid #98a86d;
+}
+
+.mkdf-drop-down .wide .second .inner ul li a {
+  font-size: 15px;
+  padding: 7px 0;
+}
+
+.mkdf-drop-down .wide .second .inner ul li ul {
+  position: relative;
+  display: block;
+  top: 0;
+  left: 0;
+  visibility: visible;
+}
+
+.mkdf-drop-down .wide .second .inner ul li ul li:last-child a {
+  padding-bottom: 0;
+}
+
+.mkdf-drop-down .wide .second .inner > ul {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 1100px;
+  padding: 61px 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 1400px) {
+  .mkdf-grid-1300 .mkdf-drop-down .wide .second .inner > ul {
+    width: 1300px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .mkdf-grid-1200 .mkdf-drop-down .wide .second .inner > ul {
+    width: 1200px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .mkdf-grid-1000 .mkdf-drop-down .wide .second .inner > ul {
+    width: 1000px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .mkdf-grid-800 .mkdf-drop-down .wide .second .inner > ul {
+    width: 800px;
+  }
+}
+
+.mkdf-drop-down .wide .second .inner > ul > li {
+  float: left;
+  width: 25%;
+  margin: 0;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.mkdf-drop-down .wide .second .inner > ul > li:nth-child(4n+1) {
+  clear: both;
+}
+
+.mkdf-drop-down .wide .second .inner > ul > li > a {
+  padding: 0 0 18px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  line-height: 1.1em;
+}
+
+.mkdf-drop-down .wide .second .inner > ul > li > a.no_link {
+  cursor: default;
+}
+
+.mkdf-drop-down .wide .second .inner > ul > li > a .item_outer {
+  padding: 0;
+  overflow: inherit;
+}
+
+.mkdf-drop-down .wide .second .inner > ul > li > a .item_outer:before, .mkdf-drop-down .wide .second .inner > ul > li > a .item_outer:after {
+  display: none;
+}
+
+.mkdf-drop-down .wide .second .inner > ul > li.current-menu-ancestor > a,
+.mkdf-drop-down .wide .second .inner > ul > li.current-menu-item > a {
+  color: #98a86d;
+}
+
+.mkdf-drop-down .wide.left_position .second .inner > ul, .mkdf-drop-down .wide.right_position .second .inner > ul {
+  width: auto;
+  white-space: nowrap;
+}
+
+.mkdf-drop-down .wide.left_position .second .inner > ul > li, .mkdf-drop-down .wide.right_position .second .inner > ul > li {
+  float: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.mkdf-drop-down .wide.left_position .second .inner > ul > li:nth-child(4n+1), .mkdf-drop-down .wide.right_position .second .inner > ul > li:nth-child(4n+1) {
+  border-left: none;
+}
+
+.mkdf-drop-down .wide.left_position .second ul li, .mkdf-drop-down .wide.right_position .second ul li {
+  width: 200px;
+}
+
+/* ==========================================================================
+   Header main menu style - end
+   ========================================================================== */
+/* ==========================================================================
+   Fixed header style - begin
+   ========================================================================== */
+.mkdf-page-header .mkdf-fixed-wrapper.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+}
+
+.admin-bar .mkdf-page-header .mkdf-fixed-wrapper.fixed {
+  top: 32px;
+}
+
+.mkdf-page-header .mkdf-fixed-wrapper.fixed .mkdf-menu-area {
+  background-color: #fff;
+}
+
+/* ==========================================================================
+   Fixed header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header Centered style - begin
+   ========================================================================== */
+.mkdf-header-centered .mkdf-page-header .mkdf-logo-area {
+  height: 140px;
+  overflow: visible;
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+.mkdf-header-centered .mkdf-page-header .mkdf-logo-area .mkdf-logo-wrapper a {
+  max-height: 140px;
+}
+
+.mkdf-header-centered .mkdf-page-header .mkdf-menu-area {
+  height: 70px;
+  z-index: 1;
+}
+
+.mkdf-header-centered .mkdf-page-header .mkdf-menu-area .mkdf-vertical-align-containers .mkdf-position-center-inner {
+  height: 100%;
+}
+
+.mkdf-header-centered .mkdf-page-header .mkdf-menu-area .mkdf-vertical-align-containers .mkdf-position-left-inner,
+.mkdf-header-centered .mkdf-page-header .mkdf-menu-area .mkdf-vertical-align-containers .mkdf-position-right-inner {
+  height: 100%;
+}
+
+.mkdf-header-centered .mkdf-page-header .mkdf-menu-area .mkdf-vertical-align-containers .mkdf-position-left-inner:before,
+.mkdf-header-centered .mkdf-page-header .mkdf-menu-area .mkdf-vertical-align-containers .mkdf-position-right-inner:before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.mkdf-header-centered .mkdf-page-header .mkdf-sticky-header .mkdf-position-left-inner {
+  height: auto;
+}
+
+.mkdf-header-centered .mkdf-page-header .mkdf-sticky-header .mkdf-position-right-inner {
+  height: 100%;
+}
+
+/* ==========================================================================
+   Header Centered style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header Standard style - begin
+   ========================================================================== */
+.mkdf-header-standard .mkdf-menu-area.mkdf-menu-left .mkdf-main-menu {
+  width: auto;
+  padding: 0 0 0 20px;
+}
+
+.mkdf-header-standard .mkdf-menu-area.mkdf-menu-left .mkdf-vertical-align-containers .mkdf-position-left-inner {
+  height: 100%;
+}
+
+.mkdf-header-standard .mkdf-menu-area.mkdf-menu-left .mkdf-vertical-align-containers .mkdf-position-left:before,
+.mkdf-header-standard .mkdf-menu-area.mkdf-menu-left .mkdf-vertical-align-containers .mkdf-position-right:before {
+  display: none;
+}
+
+.mkdf-header-standard .mkdf-menu-area.mkdf-menu-left .mkdf-vertical-align-containers .mkdf-position-right-inner {
+  display: -webkit-flex;
+  /* Safari */
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.mkdf-header-standard .mkdf-menu-area.mkdf-menu-center .mkdf-vertical-align-containers .mkdf-position-center-inner {
+  height: 100%;
+}
+
+.mkdf-header-standard .mkdf-menu-area.mkdf-menu-center .mkdf-vertical-align-containers .mkdf-position-right:before {
+  display: none;
+}
+
+.mkdf-header-standard .mkdf-menu-area.mkdf-menu-center .mkdf-vertical-align-containers .mkdf-position-right-inner {
+  display: -webkit-flex;
+  /* Safari */
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.mkdf-header-standard .mkdf-menu-area.mkdf-menu-right .mkdf-main-menu {
+  width: auto;
+}
+
+.mkdf-header-standard .mkdf-menu-area.mkdf-menu-right .mkdf-vertical-align-containers .mkdf-position-right-inner {
+  height: 100%;
+}
+
+/* ==========================================================================
+   Header Standard style - end
+   ========================================================================== */
+/* ==========================================================================
+   Mobile header style - begin
+   ========================================================================== */
+.mkdf-mobile-header {
+  position: relative;
+  display: none;
+  z-index: 110;
+  /* #General mobile header styles
+    ========================================================================== */
+  /* #End of general mobile header styles
+   ========================================================================== */
+  /* #Mobile logo styles
+    ========================================================================== */
+  /* #End of mobile logo styles
+    ========================================================================== */
+  /* #Mobile menu opener styles
+    ========================================================================== */
+  /* #End of mobile menu opener styles
+    ========================================================================== */
+  /* #Mobile menu navigation styles
+    ========================================================================== */
+  /* #End of mobile menu navigation styles
+	========================================================================== */
+}
+
+.mkdf-mobile-header .mkdf-mobile-header-inner {
+  position: relative;
+  height: 70px;
+  background-color: #fff;
+  border-bottom: 1px solid #c9c9c9;
+  box-sizing: border-box;
+}
+
+.mkdf-mobile-header .mkdf-mobile-header-inner .mkdf-mobile-header-holder {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+}
+
+.mkdf-mobile-header .mkdf-grid {
+  height: 100%;
+}
+
+.mkdf-mobile-header .mkdf-vertical-align-containers {
+  padding: 0;
+}
+
+.mkdf-mobile-header .mkdf-mobile-logo-wrapper a {
+  display: block;
+}
+
+.mkdf-mobile-header .mkdf-mobile-logo-wrapper img {
+  display: block;
+  height: 100%;
+  width: auto;
+}
+
+.mkdf-mobile-header .mkdf-mobile-menu-opener {
+  position: relative;
+  height: 100%;
+  float: left;
+  z-index: 2;
+}
+
+.mkdf-mobile-header .mkdf-mobile-menu-opener a {
+  display: table;
+  height: 100%;
+  padding-right: 10px;
+}
+
+.mkdf-mobile-header .mkdf-mobile-menu-opener a > * {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 1em;
+}
+
+.mkdf-mobile-header .mkdf-mobile-menu-opener a .mkdf-mobile-menu-text {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  padding-left: 5px;
+}
+
+.mkdf-mobile-header .mkdf-mobile-menu-opener.mkdf-mobile-menu-opener-icon-pack .mkdf-mobile-menu-icon {
+  font-size: 24px;
+}
+
+.mkdf-mobile-header .mkdf-mobile-menu-opener.mkdf-mobile-menu-opener-icon-pack .mkdf-mobile-menu-icon * {
+  display: block;
+  line-height: inherit;
+}
+
+.mkdf-mobile-header .mkdf-mobile-menu-opener.mkdf-mobile-menu-opener-icon-pack .mkdf-mobile-menu-icon *:before {
+  display: block;
+  line-height: inherit;
+}
+
+.mkdf-mobile-header .mkdf-mobile-menu-opener.mkdf-mobile-menu-opener-svg-path .mkdf-mobile-menu-icon > * {
+  vertical-align: middle;
+}
+
+.mkdf-mobile-header .mkdf-mobile-menu-opener.mkdf-mobile-menu-opener-svg-path .mkdf-mobile-menu-icon > *,
+.mkdf-mobile-header .mkdf-mobile-menu-opener.mkdf-mobile-menu-opener-svg-path .mkdf-mobile-menu-icon path {
+  fill: currentColor;
+}
+
+.mkdf-mobile-header .mkdf-mobile-menu-opener.mkdf-mobile-menu-opened a {
+  color: #98a86d;
+}
+
+.mkdf-mobile-header .mkdf-mobile-nav {
+  display: none;
+  background-color: #fff;
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.mkdf-mobile-header .mkdf-mobile-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.mkdf-mobile-header .mkdf-mobile-nav ul li {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  -webkit-transform: translateZ(0);
+}
+
+.mkdf-mobile-header .mkdf-mobile-nav ul li a, .mkdf-mobile-header .mkdf-mobile-nav ul li h6 {
+  position: relative;
+  display: block;
+  padding: 9px 0;
+  margin: 0;
+  color: #000;
+  border-bottom: 1px solid #c9c9c9;
+  cursor: pointer;
+}
+
+.mkdf-mobile-header .mkdf-mobile-nav ul li a:hover, .mkdf-mobile-header .mkdf-mobile-nav ul li h6:hover {
+  color: #98a86d;
+}
+
+.mkdf-mobile-header .mkdf-mobile-nav ul ul {
+  display: none;
+  margin-left: 15px;
+}
+
+.mkdf-mobile-header .mkdf-mobile-nav ul ul li.current-menu-ancestor > a,
+.mkdf-mobile-header .mkdf-mobile-nav ul ul li.current-menu-item > a,
+.mkdf-mobile-header .mkdf-mobile-nav ul ul li.current-menu-ancestor > h6,
+.mkdf-mobile-header .mkdf-mobile-nav ul ul li.current-menu-item > h6 {
+  color: #98a86d;
+}
+
+.mkdf-mobile-header .mkdf-mobile-nav ul ul li a, .mkdf-mobile-header .mkdf-mobile-nav ul ul li h6 {
+  font-size: 11px;
+  line-height: 24px;
+}
+
+.mkdf-mobile-header .mkdf-mobile-nav .mkdf-grid > ul > li > a,
+.mkdf-mobile-header .mkdf-mobile-nav .mkdf-grid > ul > li > h6 {
+  padding-left: 4px;
+  font-size: 13px;
+}
+
+.mkdf-mobile-header .mkdf-mobile-nav .mkdf-grid > ul > li.mkdf-active-item > a,
+.mkdf-mobile-header .mkdf-mobile-nav .mkdf-grid > ul > li.mkdf-active-item > h6 {
+  color: #98a86d;
+}
+
+.mkdf-mobile-header .mkdf-mobile-nav .mkdf-grid > ul > li.mkdf-active-item > .mobile_arrow > .mkdf-sub-arrow {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.mkdf-mobile-header .mkdf-mobile-nav .mobile_arrow {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50px;
+  height: auto;
+  padding: 9px 12px 9px 0;
+  font-size: 15px;
+  line-height: inherit;
+  text-align: right;
+  box-sizing: border-box;
+}
+
+.mkdf-mobile-header .mkdf-mobile-nav .mobile_arrow:hover {
+  cursor: pointer;
+}
+
+.mkdf-mobile-header .mkdf-mobile-nav .mobile_arrow .mkdf-sub-arrow {
+  line-height: 1;
+  -webkit-transition: transform 0.2s ease-in-out;
+  -moz-transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+}
+
+.mkdf-mobile-header .mkdf-mobile-nav .mobile_arrow .fa-angle-down {
+  display: none;
+}
+
+.mkdf-mobile-header .mkdf-mobile-nav li.mkdf-opened > .mobile_arrow > .mkdf-sub-arrow {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.mkdf-mobile-header .mkdf-mobile-nav > ul > li:last-child > a,
+.mkdf-mobile-header .mkdf-mobile-nav > .mkdf-grid > ul > li:last-child > a {
+  border-bottom: none;
+}
+
+/* ==========================================================================
+   Mobile header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Sticky Mobile header style - begin
+   ========================================================================== */
+.mkdf-sticky-up-mobile-header .mkdf-animate-mobile-header .mkdf-mobile-header-inner {
+  width: 100%;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 0.4s ease-in-out, left 0.2s ease, right 0.2s ease;
+  -moz-transition: -moz-transform 0.4s ease-in-out, left 0.2s ease, right 0.2s ease;
+  transition: transform 0.4s ease-in-out, left 0.2s ease, right 0.2s ease;
+}
+
+.mkdf-sticky-up-mobile-header .mobile-header-appear .mkdf-mobile-header-inner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  transform: translateY(0);
+}
+
+/* ==========================================================================
+   Sticky Mobile header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Sticky header style - begin
+   ========================================================================== */
+.mkdf-sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  z-index: 100;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 0.6s ease;
+  -moz-transition: -moz-transform 0.6s ease;
+  transition: transform 0.6s ease;
+}
+
+.mkdf-sticky-header .mkdf-grid {
+  height: 100% !important;
+}
+
+.mkdf-sticky-header.header-appear {
+  transform: translateY(0%);
+}
+
+.admin-bar .mkdf-sticky-header.header-appear {
+  top: 32px;
+}
+
+.mkdf-sticky-header .mkdf-sticky-holder {
+  position: relative;
+  height: 100%;
+  z-index: 2;
+  background-color: #fff;
+  border-bottom: 1px solid #c9c9c9;
+  box-sizing: border-box;
+}
+
+.mkdf-sticky-header .mkdf-sticky-holder .mkdf-logo-wrapper a {
+  max-height: 70px;
+}
+
+.mkdf-sticky-header .mkdf-sticky-holder .mkdf-vertical-align-containers {
+  padding: 0 40px;
+}
+
+.mkdf-sticky-header .mkdf-sticky-holder.mkdf-menu-left .mkdf-main-menu {
+  width: auto;
+  padding: 0 0 0 20px;
+}
+
+.mkdf-sticky-header .mkdf-sticky-holder.mkdf-menu-left .mkdf-vertical-align-containers .mkdf-position-left-inner {
+  height: 100%;
+}
+
+.mkdf-sticky-header .mkdf-sticky-holder.mkdf-menu-left .mkdf-vertical-align-containers .mkdf-position-right:before {
+  display: none;
+}
+
+.mkdf-sticky-header .mkdf-sticky-holder.mkdf-menu-left .mkdf-vertical-align-containers .mkdf-position-right-inner {
+  display: -webkit-flex;
+  /* Safari */
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.mkdf-sticky-header .mkdf-sticky-holder.mkdf-menu-center .mkdf-vertical-align-containers .mkdf-position-center-inner {
+  height: 100%;
+}
+
+.mkdf-sticky-header .mkdf-sticky-holder.mkdf-menu-center .mkdf-vertical-align-containers .mkdf-position-right:before {
+  display: none;
+}
+
+.mkdf-sticky-header .mkdf-sticky-holder.mkdf-menu-center .mkdf-vertical-align-containers .mkdf-position-right-inner {
+  display: -webkit-flex;
+  /* Safari */
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.mkdf-sticky-header .mkdf-sticky-holder.mkdf-menu-right .mkdf-main-menu {
+  width: auto;
+}
+
+.mkdf-sticky-header .mkdf-sticky-holder.mkdf-menu-right .mkdf-vertical-align-containers .mkdf-position-right-inner {
+  height: 100%;
+}
+
+.mkdf-sticky-header .widget {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+/* ==========================================================================
+   Sticky header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Top header style - begin
+   ========================================================================== */
+.mkdf-top-bar {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  height: 48px;
+  color: #fff;
+  font-size: 12px;
+  background-color: #98a86d;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 111;
+  box-sizing: border-box;
+}
+
+.mkdf-top-bar > .mkdf-vertical-align-containers {
+  padding: 0 40px;
+}
+
+.mkdf-top-bar .mkdf-vertical-align-containers .mkdf-position-left:before,
+.mkdf-top-bar .mkdf-vertical-align-containers .mkdf-position-right:before {
+  display: none;
+}
+
+.mkdf-top-bar .mkdf-vertical-align-containers .mkdf-position-left-inner,
+.mkdf-top-bar .mkdf-vertical-align-containers .mkdf-position-right-inner {
+  display: -webkit-flex;
+  /* Safari */
+  -webkit-align-items: center;
+  /* Safari 7.0+ */
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.mkdf-top-bar .mkdf-grid {
+  height: 100%;
+}
+
+.mkdf-top-bar .mkdf-grid .mkdf-vertical-align-containers {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.mkdf-top-bar-in-grid-padding .mkdf-top-bar .mkdf-grid .mkdf-vertical-align-containers {
+  padding: 0 40px;
+}
+
+.mkdf-top-bar .widget {
+  margin: 0;
+}
+
+.mkdf-top-bar .widget ul li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 20px 0 0;
+}
+
+.mkdf-top-bar .widget ul li a {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+/* ==========================================================================
+   Top header style - end
+   ========================================================================== */
+/* ==========================================================================
+   Header styles - end
+   ========================================================================== */
+
+/*# sourceMappingURL=header-map.css.map */

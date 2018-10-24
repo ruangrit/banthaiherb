@@ -1,0 +1,98 @@
+/* ==========================================================================
+   Global partials
+   ========================================================================== */
+/* common mixins - start */
+/* common mixins - end */
+/* mixins styles - start */
+/* mixins styles - end */
+/* ==========================================================================
+   Custom Post Types responsive styles
+   ========================================================================== */
+/* ==========================================================================
+# Restaurant Menu List responsive style - begin
+========================================================================== */
+@media only screen and (max-width: 680px) {
+  .mkdf-restaurant-menu-list .mkdf-rml-item {
+    margin-bottom: 0;
+  }
+  .mkdf-restaurant-menu-list .mkdf-rml-line {
+    display: none;
+  }
+  .mkdf-restaurant-menu-list .mkdf-rml-price-holder {
+    text-align: right;
+  }
+  .mkdf-restaurant-menu-list .mkdf-rml-label-holder {
+    float: none;
+    text-align: left;
+    width: 80%;
+    top: 10px;
+  }
+  .mkdf-restaurant-menu-list .mkdf-rml-title-holder {
+    width: 80%;
+    white-space: normal;
+  }
+  .mkdf-restaurant-menu-list .mkdf-rml-bottom-holder {
+    margin-bottom: 25px;
+    margin-top: 0px;
+    line-height: 18px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-restaurant-menu-list.mkdf-rml-with-featured-image .mkdf-rml-item-image {
+    display: none;
+  }
+  .mkdf-restaurant-menu-list.mkdf-rml-with-featured-image .mkdf-rml-item-content {
+    padding-left: 0px;
+  }
+}
+
+/* ==========================================================================
+# Restaurant Menu List responsive style - end
+========================================================================== */
+/* ==========================================================================
+   Shortcodes responsive styles
+   ========================================================================== */
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+  .mkdf-rf-holder .mkdf-btn {
+    font-size: 13px;
+  }
+  .mkdf-rf-holder .mkdf-btn.mkdf-btn-medium.mkdf-btn-icon .mkdf-btn-text {
+    padding-left: 0;
+    padding-right: 19px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mkdf-rf-holder .mkdf-rf-row {
+    margin-left: -15px;
+    margin-right: -15px;
+    width: auto;
+  }
+  .mkdf-rf-holder .mkdf-rf-col-holder,
+  .mkdf-rf-holder .mkdf-rf-col-holder.mkdf-rf-btn-holder,
+  .mkdf-rf-holder .mkdf-rf-col-holder.mkdf-rf-time-col {
+    width: 50%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+  }
+  .mkdf-rf-holder .mkdf-rf-col-holder .mkdf-rf-field-holder,
+  .mkdf-rf-holder .mkdf-rf-col-holder.mkdf-rf-btn-holder .mkdf-rf-field-holder,
+  .mkdf-rf-holder .mkdf-rf-col-holder.mkdf-rf-time-col .mkdf-rf-field-holder {
+    width: 100%;
+  }
+  .mkdf-rf-holder .mkdf-rf-label {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .mkdf-rf-holder .mkdf-rf-col-holder,
+  .mkdf-rf-holder .mkdf-rf-col-holder.mkdf-rf-btn-holder,
+  .mkdf-rf-holder .mkdf-rf-col-holder.mkdf-rf-time-col {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=../../../../plugins/verdure-restaurant/assets/css/restaurant-responsive.css.map */

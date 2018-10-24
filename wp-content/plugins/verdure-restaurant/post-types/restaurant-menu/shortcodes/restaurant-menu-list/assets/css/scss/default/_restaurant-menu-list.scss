@@ -1,0 +1,123 @@
+/* ==========================================================================
+# Restaurant Menu List style - begin
+========================================================================== */
+
+.mkdf-restaurant-menu-list {
+	ul {
+		list-style-type: none;
+
+		li {
+			margin-bottom: 49px;
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.mkdf-rml-title-holder {
+		display: table-cell;
+		width: 1%;
+		white-space: nowrap;
+		padding-right: 7px;
+	}
+
+	.mkdf-rml-title, .mkdf-rml-price {
+		margin: 0;
+		padding-bottom: 0;
+	}
+
+	.mkdf-rml-price {
+		line-height: 1.2em;
+	}
+
+	.mkdf-rml-line {
+		height: 2px;
+		background-image: linear-gradient(to right, black 40%, rgba(255,255,255,0) 0%);
+		background-position: bottom left;
+		background-size: 5px 2px;
+		background-repeat: repeat-x;
+		display: table-cell;
+		width: 100%;
+		z-index: 1;
+		position: relative;
+		bottom: 9px;
+	}
+
+	.mkdf-rml-price-holder {
+		display: table-cell;
+		width: 1%;
+		padding-left: 10px;
+		white-space: nowrap;
+	}
+
+	.mkdf-rml-bottom-holder {
+		position: relative;
+		margin: 0;
+	}
+	
+	.mkdf-rml-description-holder {
+		float: left;
+		width: 70%;
+	}
+
+	.mkdf-rml-label-holder {
+		float: right;
+		position: relative;
+		width: 30%;
+		text-align: right;
+
+		.mkdf-rml-label {
+			@extend %meta-style;
+			display: inline-block;
+			background-color: $first-main-color;
+			color: #fff;
+			padding: 2px 12px 0;
+			border-radius: 2px;
+			text-align: center;
+		}
+	}
+
+	&.mkdf-rml-with-featured-image {
+		.mkdf-rml-item-content {
+			padding-left: 105px;
+			padding-top: 10px;
+		}
+
+		.mkdf-rml-item-image {
+			float: left;
+			width: 76px;
+			position: relative;
+
+			.mkdf-rml-item-image-empty {
+				width:76px;
+				height:76px;
+				background: $default-border-color;
+			}
+
+			a {
+				display: block;
+			}
+
+			img {
+				vertical-align: middle;
+			}
+		}
+	}
+
+	&.mkdf-rml-light {
+		.mkdf-rml-title,
+		.mkdf-rml-price,
+		.mkdf-rml-label {
+			color: #fff;
+		}
+
+		.mkdf-rml-line {
+			background-image: linear-gradient(to right, white 40%, rgba(255,255,255,0) 0%);
+		}
+	}
+}
+
+/* ==========================================================================
+# Restaurant Menu List style - end
+========================================================================== */

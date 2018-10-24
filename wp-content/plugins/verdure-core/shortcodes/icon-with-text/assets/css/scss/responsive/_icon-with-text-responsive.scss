@@ -1,0 +1,35 @@
+/* ==========================================================================
+   Icon With Text shortcode responsive style - begin
+   ========================================================================== */
+
+@media screen and (max-width: $phone-portrait) {
+
+	.mkdf-iwt {
+		&.mkdf-iwt-icon-left,
+		&.mkdf-iwt-icon-left-from-title {
+
+			.mkdf-iwt-content {
+				text-align: center;
+				padding-left: 0 !important;
+				padding-right: 0 !important;
+			}
+
+			.mkdf-iwt-icon,
+			.mkdf-iwt-title-text {
+				position: relative;
+				display: block;
+				text-align: center;
+			}
+		}
+		.mkdf-iwt-title	{
+			margin:20px 0;
+
+			a {
+				display: block;
+			}
+		}
+	}
+}
+/* ==========================================================================
+   Icon With Text shortcode responsive style - end
+   ========================================================================== */

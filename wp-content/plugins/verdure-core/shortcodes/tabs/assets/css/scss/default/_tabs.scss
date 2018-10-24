@@ -1,0 +1,246 @@
+/* ==========================================================================
+   Tabs shortcode style - begin
+   ========================================================================== */
+
+.mkdf-tabs {
+	@include mkdfRelativeHolderLayout();
+	.mkdf-tabs-nav {
+		@include mkdfRelativeHolderLayout();
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		
+		li {
+			float: left;
+			margin: 0;
+			padding: 0;
+			&.ui-state-default{
+				margin-right: 2px;
+			}
+
+			a {
+				position: relative;
+				display: inline-block;
+				vertical-align: middle;
+				box-sizing: border-box;
+				color: $default-heading-color;
+				font-size: 16px;
+				line-height: 26px;
+				font-weight: 300;
+				letter-spacing: .1em;
+                text-transform: uppercase;
+				background-color: #f6f6f6;
+				@include mkdfTransition(color .2s ease-out, background-color .2s ease-out, border-color .2s ease-out);
+				&.ui-tabs-anchor{
+					padding: 15px 45px;
+				}
+			}
+		}
+	}
+	
+	.mkdf-tab-container {
+        box-sizing: border-box;
+		@include mkdfRelativeHolderLayout();
+		padding: 20px 0;
+		p {
+			margin: 0;
+		}
+	}
+	
+	&.mkdf-tabs-standard {
+		border: none;
+
+		.mkdf-tabs-nav {
+			font-size: 0;
+			padding: 1px 0 0 1px; //to prevent double borders
+
+			li{
+				position: relative;
+				display: inline-block;
+				margin-right: 0;
+				vertical-align: middle;
+				background-color: #fff;
+				border: 1px solid $default-border-color;
+				margin-left: -1px; //to prevent double borders
+				margin-top: -1px; //to prevent double borders
+
+				&.active{
+					background-color: $first-main-color;
+					border-color: $first-main-color;
+
+					a {
+						color: #ffffff;
+					}
+				}
+
+				a {
+					background-color: transparent;
+					line-height: 25px;
+				}
+				
+				&.ui-state-active a,
+				&.ui-state-hover a {
+					color: #fff;
+					background-color: $first-main-color;
+					border-color: $first-main-color;
+				}
+			}
+		}
+	}
+	
+	&.mkdf-tabs-boxed {
+		border: none;
+		.mkdf-tabs-nav {
+			
+			li {
+				a {
+					color: $default-heading-color;
+					background-color: #f6f6f6;
+				}
+				
+				&.ui-state-active a,
+				&.ui-state-hover a {
+					color: #fff;
+					background-color: $first-main-color;
+				}
+				
+				&:last-child {
+					margin: 0;
+				}
+			}
+		}
+	}
+	
+	&.mkdf-tabs-simple {
+		border: none;
+		.mkdf-tabs-nav {
+			border-bottom: 1px solid #d2d2d2;
+			li {
+				margin: 0 31px 0 0;
+				a{
+					background-color: transparent;
+					&:last-child{
+						padding-left: 0;
+					}
+				}
+				&.ui-state-active a {
+					 color: $first-main-color;
+				}
+			}
+		}
+		.mkdf-tab-container {
+			border-bottom: 1px solid #d2d2d2;
+		}
+	}
+	
+	&.mkdf-tabs-vertical {
+		display: table;
+		border: none;
+		font-size: 0;
+		
+		.mkdf-tabs-nav {
+			display: table-cell;
+			vertical-align: top;
+			width: 155px;
+			height: 100%;
+			box-sizing: border-box;
+			
+			li {
+				width: 100%;
+				position: relative;
+				display: block;
+				margin-right: 0;
+				vertical-align: middle;
+				background-color: #fff;
+				border: 1px solid $default-border-color;
+				border-bottom:none;
+				font-size: 17px;
+
+				&:last-of-type{
+					border-bottom: 1px solid $default-border-color;
+				}
+
+				&.ui-state-active a,
+				&.ui-state-hover a {
+					color: #fff;
+					background-color: $first-main-color;
+					border-color: $first-main-color;
+				}
+			}
+
+			a {
+				background-color: transparent;
+				line-height: 25px;
+				letter-spacing: .1em;
+				width: 100%;
+				text-align: center;
+
+				&.ui-tabs-anchor{
+					padding: 15px 0;
+				}
+			}
+
+			&.ui-state-active a,
+			&.ui-state-hover a {
+				color: #fff;
+				background-color: $first-main-color;
+			}
+
+			&:last-child {
+				margin: 0;
+			}
+		}
+		
+		.mkdf-tab-container {
+			display: table-cell;
+			vertical-align: top;
+			width: calc(100% - 155px);
+			padding: 10px 20px;
+			height: 100%;
+			box-sizing: border-box;
+			}
+		}
+	}
+
+.ui-widget-content {
+	padding: 0;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background: none;
+	border: 0;
+	border-radius: 0;
+
+    .ui-widget-header {
+	    font-size: inherit;
+	    line-height: inherit;
+	    font-weight: inherit;
+	    color: initial;
+	    background: none;
+	    border: 0;
+        border-radius: 0;
+    }
+
+    .ui-tabs-nav {
+
+        li {
+			display: inline-block;
+	        position: initial;
+	        font-weight: inherit;
+	        color: inherit;
+	        background: initial;
+	        border-radius: 0;
+			border: none;
+        }
+    }
+
+    .ui-widget-content {
+	    color: inherit;
+	    background: none;
+	    border: 0;
+        border-radius: 0;
+    }
+}
+/* ==========================================================================
+   Tabs shortcode style - end
+   ========================================================================== */
