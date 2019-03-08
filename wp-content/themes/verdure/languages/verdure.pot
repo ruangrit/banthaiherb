@@ -6641,7 +6641,7 @@ msgstr ""
 #: framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/woocommerce-dropdown-cart.php:101
 #: framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/woocommerce-dropdown-cart.php:185
 msgid "VIEW CART"
-msgstr ""
+msgstr "ดูตะกร้าสินค้า"
 
 #: framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/woocommerce-dropdown-cart.php:105
 #: framework/modules/woocommerce/widgets/woocommerce-dropdown-cart/woocommerce-dropdown-cart.php:189
