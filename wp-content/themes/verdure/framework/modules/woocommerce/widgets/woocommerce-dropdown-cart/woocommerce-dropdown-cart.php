@@ -74,8 +74,8 @@ class VerdureMikadoWooCommerceDropdownCart extends VerdureMikadoWidget
                                         </a>
                                     </div>
                                     <div class="mkdf-item-info-holder">
-                                        <h5 itemprop="name" class="mkdf-product-title">
-	                                        <a itemprop="url" href="<?php echo esc_url(get_permalink($cart_item['product_id'])); ?>"><?php echo apply_filters('verdure_mikado_woo_widget_cart_product_title', $_product->get_name(), $_product); ?></a>
+                                        <h5 itemprop="name" class="mkdf-product-title">dddd
+	                                        <a itemprop="url" href="<?php echo esc_url(get_permalink($cart_item['product_id'])); ?>">ddd<?php //echo apply_filters('verdure_mikado_woo_widget_cart_product_title', $_product->get_name(), $_product); ?></a>
                                         </h5>
                                         <?php if(apply_filters('verdure_mikado_woo_cart_enable_quantity', true)) { ?>
                                             <span class="mkdf-quantity"><?php esc_html_e('Quantity: ', 'verdure'); echo esc_html($cart_item['quantity']); ?></span>
@@ -159,7 +159,7 @@ function verdure_mikado_woocommerce_header_add_to_cart_fragment($fragments) {
                             </div>
                             <div class="mkdf-item-info-holder">
                                 <h5 itemprop="name" class="mkdf-product-title">
-	                                <a itemprop="url" href="<?php echo esc_url(get_permalink($cart_item['product_id'])); ?>"><?php echo apply_filters('verdure_mikado_woo_widget_cart_product_title', $_product->get_name(), $_product); ?></a>
+	                                <a itemprop="url" href="<?php echo esc_url(get_permalink($cart_item['product_id'])); ?>">xxx<?php //echo apply_filters('verdure_mikado_woo_widget_cart_product_title', $_product->get_name(), $_product); ?></a>
                                 </h5>
 		                        <?php if(apply_filters('verdure_mikado_woo_cart_enable_quantity', true)) { ?>
                                     <span class="mkdf-quantity"><?php esc_html_e('Quantity: ', 'verdure'); echo esc_html($cart_item['quantity']); ?></span>

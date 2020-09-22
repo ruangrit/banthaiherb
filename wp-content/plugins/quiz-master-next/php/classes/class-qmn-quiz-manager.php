@@ -933,8 +933,9 @@ class QMNQuizManager {
 		}
 
 		$commaList = implode(', ', $prd_list);
-		$product_result = '<div class="quiz-result-title">ผลลัพธ์ผลิตภัณฑ์ที่เหมาะสมกับคุณ</div>';
-		$product_result .= do_shortcode('[products columns="4" orderby="title" order="ASC" ids="'.$commaList.'"]');
+		$product_result = '';
+		//$product_result .= '<div class="quiz-result-title">'.esc_html_e( 'Result products that is right for you.', 'woocommerce' ).'</div><br /><br />';
+		$product_result .= do_shortcode('[products columns="4" orderby="include" order="DESC" ids="'.$commaList.'"]');
 		// Prepares data to be sent back to front-end.
 		$return_array = array(
 			'display'        => $result_display,
